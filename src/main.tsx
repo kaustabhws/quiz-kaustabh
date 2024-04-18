@@ -10,7 +10,7 @@ import { OptionsProvider } from "./components/options-provider.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
         <OptionsProvider>
           <LoginProvider defaultStatus="false" storageKey="login-status">
