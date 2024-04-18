@@ -39,7 +39,10 @@ const WelcomePage = () => {
                   can engage in quizzes and embed them seamlessly into your
                   website.
                 </p>
-                <Button onClick={() => setOpen(true)} className="max-w-fit">
+                <Button
+                  onClick={() => setOpen(true)}
+                  className="max-w-fit max-[930px]:mx-auto"
+                >
                   Get Started
                 </Button>
               </div>
