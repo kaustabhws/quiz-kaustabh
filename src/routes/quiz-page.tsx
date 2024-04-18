@@ -26,7 +26,7 @@ const QuizPage = () => {
   const [quizSubmitted, setQuizSubmitted] = useState(false);
 
   const { category } = useParams();
-  const { cat, diff } = useOptions();
+  const { diff } = useOptions();
 
   const getQuiz = async () => {
     setIsLoading(true);
